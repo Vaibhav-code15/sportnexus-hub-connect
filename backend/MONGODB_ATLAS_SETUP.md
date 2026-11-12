@@ -51,7 +51,7 @@ This guide will help you set up a free MongoDB Atlas cluster for use with the Sp
 
 Example:
 ```
-MONGODB_URI=mongodb+srv://username:your_password@cluster0.abcd123.mongodb.net/sportnexus?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-url>/<database>
 ```
 
 ## Step 7: Restart Your Application
